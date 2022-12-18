@@ -1,0 +1,3 @@
+kunai 0 0
+kitchen_knife 7 0
+sword 7 0

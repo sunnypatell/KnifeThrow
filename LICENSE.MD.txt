@@ -1,0 +1,6 @@
+Copyright (C) June 2022 {Sunny Patel} <{sunnypatel124555@gmail.com}>
+
+This file is part of the {KnifeThrow} project.
+
+The {KnifeThrow} project can not be copied, distributed, and/or modified without the express
+permission of {Sunny Patel} <{sunnypatel124555@gmail.com}>.
