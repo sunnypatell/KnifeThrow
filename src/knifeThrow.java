@@ -35,8 +35,6 @@ permission of {Sunny Patel} <{sunnypatel124555@gmail.com}>.
    ^^^ This is just to make the game seem like a regular game as much as possible.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-   -------------- This project was started and finished solely for the purpose of the RHHS ICS4U Final Project Summative in the provided project timeframe --------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
 // Imports for java.awt.* are the imports for the Abstract Window Toolkit.
