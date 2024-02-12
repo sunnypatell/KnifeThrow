@@ -2,16 +2,16 @@
 
 **Running the code**
 To run the code, you will need to have the Java Development Kit (JDK) installed on your computer. You can then compile and run the KnifeThrow.java file using the following command:
-javac KnifeThrow.java
-java KnifeThrow
+`javac KnifeThrow.java`
+`java KnifeThrow`
 This should launch the game in a new window.
 
 **Dependencies**
 The game depends on the following libraries:
-java.awt.* for the Abstract Window Toolkit, which provides basic GUI functionality.
-java.io.* for reading and writing information to files.
-java.util.* for various utilities.
-javax.swing.* for additional GUI components and functionality.
+`java.awt.*` for the Abstract Window Toolkit, which provides basic GUI functionality.
+`java.io.*` for reading and writing information to files.
+`java.util.*` for various utilities.
+`javax.swing.*` for additional GUI components and functionality.
 
 **Customization**
 To customize the game, you can modify the source code in KnifeThrow.java. This could include changing the game mechanics, graphics, sounds, and other features. Please note that any changes you make may affect the overall functionality and balance of the game.
