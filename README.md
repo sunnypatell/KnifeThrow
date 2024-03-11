@@ -1,6 +1,8 @@
-# KnifeThrow 🎯🥷
+# KnifeThrow 🎯
 
 Welcome to KnifeThrow, a thrilling 2D knife throwing mini-game written in Java! Test your skills, aim, and timing as you throw knives at spinning targets. Developed by Sunny Jayendra Patel, KnifeThrow features exciting gameplay, customizable options, and potential for further development.
+
+![KnifeThrow Gameplay](/knifethrow_demonstration.jpg)
 
 
 ## Features 🚀
