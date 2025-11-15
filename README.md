@@ -1,6 +1,15 @@
 # KnifeThrow 🎯
 
-Welcome to KnifeThrow, a thrilling 2D knife throwing mini-game written in Java! Test your skills, aim, and timing as you throw knives at spinning targets. Developed by Sunny Jayendra Patel, KnifeThrow features exciting gameplay, customizable options, and potential for further development.
+Arcade-style 2D knife throwing game built entirely by hand in Grade 12 using Java Swing — before generative AI was mainstream. Precise movement, crunchy SFX, screen shake, particles, a knife shop with unlocks, and a simple leaderboard make it instantly pick-up-and-play.
+
+<p align="center">
+  <a href="https://github.com/sunnypatell/KnifeThrow/stargazers"><img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/sunnypatell/KnifeThrow?style=social"></a>
+  <img alt="Java" src="https://img.shields.io/badge/Java-SE%2011-%23ea2d2e">
+  <a href="Javadoc/index.html"><img alt="Docs" src="https://img.shields.io/badge/docs-JavaDoc-blue"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Custom-lightgrey"></a>
+</p>
+
+> Developer: Sunny Jayendra Patel • Project: KnifeThrow • Tech: Java Swing (SE 11)
 
 ![KnifeThrow Gameplay](/knifethrow_demonstration.jpg)
 
@@ -20,6 +29,28 @@ To run KnifeThrow, ensure you have the Java Development Kit (JDK) installed on y
 javac KnifeThrow.java
 java KnifeThrow
 ```
+
+## Controls ⌨️🖱️
+- Move: `A`/`D` or `←`/`→`
+- Jump: `Space` (WASD mode) or `↑` (Arrow mode)
+- Fast fall: `S` or `↓` (temporarily increases gravity)
+- Throw (horizontal): Left click
+- Throw (vertical up): Right click
+- EMP: `F` when the meter is full
+- Pause: `Esc`
+
+Control scheme can be toggled in the menu (WASD vs Arrow keys). Mouse is used throughout menus.
+
+## Features 🚀
+- Menu: Start, Load Player, Knife Shop, Rules, Developer, Quit.
+- Persistent profiles: `data.txt` stores player name, best score, control scheme, and selected knife.
+- Knife Shop: Progress unlocks knives by score milestones (configurable intervals).
+- Targets: Spawn from top/left/right for limited time; gold targets are rarer and worth more.
+- Enemy knives: Periodically enter from edges; difficulty scales over time.
+- EMP: Fill meter by scoring; flip nearby enemy knives when activated.
+- Juice: Particles, screen shake, animated player sprites, SFX, flashing EMP indicator.
+- Leaderboard: Post-run list with current player highlight and best score tracking.
+
 ## Dependencies 🛠️
 - `java.awt.*`: Abstract Window Toolkit for basic GUI functionality.
 - `java.io.*`: Input/output operations for reading and writing data.
