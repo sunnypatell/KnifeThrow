@@ -1,0 +1,60 @@
+name: Feature request
+description: Suggest an idea or enhancement for KnifeThrow
+labels: [enhancement]
+title: "feat: <short description>"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Help us scope it clearly.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Please confirm
+      options:
+        - label: I searched existing issues and Discussions to avoid duplicates.
+          required: true
+        - label: This request aligns with the project's original arcade feel.
+          required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / motivation
+      placeholder: What user problem or friction does this solve?
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the feature, menu flow, and any gameplay changes.
+      placeholder: |
+        - Add an accessibility toggle to reduce screen shake
+        - Menu option under Controls
+        - Save preference in data.txt
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What's in scope vs out of scope for a first iteration?
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: assets
+    attributes:
+      label: Assets / data updates
+      description: List any new sprites, sounds, or configuration entries.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Concrete, testable outcomes.
+      placeholder: |
+        - Compiles on both legacy and refactor builds
+        - New toggle persists to data.txt
+        - No regressions in default behavior
+  - type: textarea
+    id: visuals
+    attributes:
+      label: Visuals / mockups
+      description: Optional sketches, GIFs, or references.

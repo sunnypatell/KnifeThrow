@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question / Q&A
+    url: https://github.com/sunnypatell/KnifeThrow/discussions
+    about: Use Discussions for help, how‑tos, or general questions.
+  - name: Read the README
+    url: https://github.com/sunnypatell/KnifeThrow#readme
+    about: Setup, controls, architecture overview, and troubleshooting.
+  - name: View JavaDoc
+    url: https://github.com/sunnypatell/KnifeThrow/tree/main/Javadoc
+    about: Generated documentation for the refactored package.

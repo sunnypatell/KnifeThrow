@@ -1,0 +1,33 @@
+name: Documentation
+description: Request docs changes (README, Javadoc pointers, comments)
+labels: [documentation]
+title: "docs: <short description>"
+body:
+  - type: markdown
+    attributes:
+      value: Help improve the docs for new players and contributors.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Please confirm
+      options:
+        - label: I searched existing issues and Discussions to avoid duplicates.
+          required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - README
+        - CONTRIBUTING
+        - Javadoc pointers
+        - In-code comments
+        - Other
+  - type: textarea
+    id: details
+    attributes:
+      label: What should change and why?
+  - type: textarea
+    id: links
+    attributes:
+      label: Related links / references

@@ -1,0 +1,89 @@
+name: Bug report
+description: Report a problem or crash in KnifeThrow
+labels: [bug]
+title: "bug: <short description>"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug! Please include a minimal reproduction and your environment details so we can help quickly.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Please confirm
+      options:
+        - label: I searched existing issues and Discussions to avoid duplicates.
+          required: true
+        - label: I read CONTRIBUTING.md and followed the guidelines.
+          required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Commit SHA / release tag
+      description: Paste the commit SHA (or state "main" if latest).
+      placeholder: e.g. 1a2b3c4d or main
+  - type: dropdown
+    id: build
+    attributes:
+      label: Build variant
+      options:
+        - Legacy monolith (src/knifeThrow.java)
+        - Refactored package (refactored/src/main/java)
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Be as specific as possible (commands, menu clicks, throws, assets used).
+      placeholder: |
+        1. Launch game
+        2. Click New Game
+        3. Right-click to throw upward near left edge
+        4. Observe crash
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: What did you expect to happen?
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: What actually happened? Include exact error text if any.
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: OS, Java version, GPU (optional), display resolution, and whether audio devices are present.
+      placeholder: |
+        OS: Windows 11 23H2
+        Java: OpenJDK 17.0.9 (java -version)
+        Display: 1920x1080 @ 60Hz
+        Audio: Enabled
+        Build: Legacy monolith
+  - type: checkboxes
+    id: assets
+    attributes:
+      label: Assets present
+      description: Confirm expected folders/files exist at repo root.
+      options:
+        - label: sprites/
+        - label: sounds/
+        - label: pixelated.ttf
+        - label: data.txt
+        - label: configuration.txt
+        - label: rules.txt
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console output / stack trace
+      render: text
+      placeholder: Paste any console output or stack traces here.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / GIF
+      description: Drag & drop images or paste links.
